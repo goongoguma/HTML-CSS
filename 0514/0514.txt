@@ -1,0 +1,42 @@
+단축키
+
+!!! => !DOCTYPE html
+html:5 => 기본코드 layout
+
+*사용자를 배려하는 코딩
+*구조설계는 디자인과 분리해서 생각해야한다.
+*컨텐츠의 성격으로 배치를 생각해야한다. 
+*컨텐츠를 모르면 제대로 구조를 설계할 수 없다.
+*컨텐츠에 의미를 부여하는게 마크업의 역할
+*!DOCTYPE html 무조건 첫번째줄에 작성되야함 (그렇지않으면 표준이아닌 호환모드로 작동됨)
+*타이틀은 중요하고 핵심적인 키워드를 넣아야한다 (검색상위에 노출이 가능함)
+
+*사이트는 3단 또는 4단 구조
+
+3단 : header, main, footer
+
+4단 : header, nav(위치는 자유), main, footer
+
+https://seulbinim.github.io/fundamental/index.html# 
+=> 5단 : head(nav가 포함되는 구조), div(visual class), main(의미없이 grouping할것이기에 div.group사용)
+         , 독립적인 article(slogan), footer(클래스값), 배경을위한 div.footer.bg => 전체 컨텐츠 영역을 div.wrapper(container)로 묶기
+
+
+html : 케밥케이스(main-content)
+자바스크립트 : 카멜케이스(mainContent)
+
+div.class이름
+header.class이름
+커서위치를 바꿀때 -> ctrl+방향키
+main.class이름
+div*숫자 -> div 개수
+div.group.group$*3 -> div 숫자 그룹생성
+div.group.group${GROUP$}*3 -> 숫자그룹및 이름생성
+
+아웃라인 테그 -> section, article, nav, aside
+
+수식평가기능 -> ctrl + shift + m
+
+약어로 개별줄 wrapping -> ctrl + shift + g
+
+ 

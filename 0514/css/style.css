@@ -1,0 +1,21 @@
+
+body {
+  background-color: #fff;
+  font-size: 16px;
+  margin: 0
+}
+
+h2{ 
+  margin: 0;
+  font-size: 1em;
+  font-weight: normal;
+}
+
+/* 레이아웃 */
+
+.wrapper{
+  
+  background-color:yellow;
+  
+}
+
