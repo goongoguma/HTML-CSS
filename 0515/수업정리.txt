@@ -1,0 +1,46 @@
+* 마크업언어는 html만 있는게 아니다(ml로 끝나는게 마크업언어)
+* css는 자유도가 높은 언어
+* css에서의 속성은 attribute가 아닌 property
+* ;을 기준으로 값을 할당
+* agent(크롬,사파리,익스플로러)가 렌더링 할때 각자의 스타일이 있음
+* m0 -> margin:0;
+* cascade가 많아질수록 성능이 저하됨 
+* css의 문제는 코드보다도 검사를 해서 찾아봐야함
+* css는 block과 inline을 잘 고민해아한다.
+  block 큰박스 / inline은 block안의 위치된 작은 박스들
+* 텍스트도 역시 인라인박스들
+* 상자의 border선을 기준으로 안은 margin / 밖은 margin값(투명색)
+* 상자가 차지하는 면적에 영향을 주는 속성 width / heigth
+* 모두 더하는 박스 사이즈는 box-sizing : content-box 방식
+* border-box 방식
+* box 방식에 따라 코드가 달라짐
+* vs코드 주석 /* */ -> 컨트롤 + /
+* class 오류는 vs에서도 검색못함 (class 지정할때는 .clss이름)
+* w:800 -> width 800px 
+* border : 5px는 시계방향으로 top-width,right-width,bottom-width,left-width 방향(normal flow)으로 모든 border가 5px 
+* 개발의 원리와 패턴을 이해하는게 필요
+* 배치를 할때는 특성을 파악하고 만들어야한다 -> 투명하기때문에 없는게 아님!
+* css auto?
+* box-sizing
+* div로 버튼요소를 만들었을때 키보드포커스를 하지 못함
+* body라는 객체안에 div.wrapper를 설정함, wrapper는 자식요소 5개(header,div.visual,main,slogan,footer
+  main은 자식요소 div 3개와 각각의 text값, header안에도 text값이 자식값으로 있음) => DOM 트리모델
+* normal flow일때 마진병합현상 (margin collapsing)
+* 분석하는 작업을 계속해야함
+* .header, .visual => 두개의 클래스값을 한번에 선택 (선택자 그룹핑)
+* float 값은 left 아니면 right만 지정가능
+* rgba 함수 rgba(255,255,255,.5);
+* hsla 함수 hsla(120,20%,60%,1);
+* clear는 block상자에서만 사용가능
+* $git commit -am -> git add와 commit을 동시에 
+* overflow -> 블럭요소를 생성함
+* shift + alt + 방향키 -> 복사
+* 플랙스를 할당할때는 -> display:flex
+* flex-direction의 값은 row,column,reverse중 하나로 설정이 되어있음(어떤거냐에 따라 x,y축이 달라짐)-> ordered:번호에따라 순서가 달라짐
+* flex ----> 차세대 기법 (grid)
+* justify-content: space-evenly -> 공간을 고르게 할당
+**** float와 flex
+* align-content/ align-items
+* 
+
+*

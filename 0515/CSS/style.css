@@ -1,0 +1,43 @@
+body {
+  background-color: white;
+  font-size: 16px;
+  margin: 0;
+}
+
+h2{
+  margin:0;
+  font-size: 1em;
+  font-weight: normal;
+}
+
+/*레이아웃*/
+
+.wrapper{
+  background-color:yellow;
+  width: 800px;
+  border:5px dotted #f000;
+  
+ }
+
+.header{
+  background-color:pink;
+  margin: 50px 0 50px 0;
+  viewport: 10vh;
+}
+
+.visual{
+  background-color: grey;
+  margin: 100px 0 20px 0;
+}
+
+.main{
+  background-color:skyblue;
+}
+
+.slogan{
+  background-color:blueviolet;
+}
+
+.footer{
+  background-color:bisque;
+}
