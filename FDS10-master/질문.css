@@ -1,0 +1,60 @@
+.member{
+  text-align: right;
+  font-size: 0; /*왜 폰트사이즈를 0으로 설정해놓았나요??*/
+  padding: 10px 0;
+  position: relative; 
+  right: -10px;
+}
+========================================================================================
+
+.member li{
+  display: inline-block; /*member li들의 가로정렬을 위해서 인가요?*/
+  font-size: 1.4rem;
+  text-transform: uppercase;
+}
+=========================================================================================
+
+.menu-item-text{
+  line-height: 45px;
+  border-left: 2px solid rgba(255, 255, 255, .5);
+  display: block; /*menu-item-text들은 가로로 배치되어있는데 block은 세로로 배치할때 쓰는 명령어이지 않나요?*/
+  padding: 0 20px;
+  color: #fff;
+  font-weight: 700; /*글씨두께*/
+  font-size: 1.6rem;
+  text-shadow: 1px 0 0 #000, 0 1px 0 #000, -1px 0 0 #000, 0 -1px 0 #000;
+==========================================================================================
+
+.menu-item{
+  float: left;
+  position: relative; 
+}
+
+.sub-menu{
+  display: none;/*menu-item-text아래 sub-menu들이 보이게 하지 않는 역할*/
+  position: absolute; /*?*/
+  top: 600px;
+  white-space: nowrap; /*강제로 개행을 막아줌*/
+}
+
+.sub-menu li{
+  display: inline-block; /*가로정렬?*/
+
+  /*.menu-item의 position이 relative인 이유는 sub-menu들의 포지션을 absolute로 주기 위함인가요?*/
+  =======================================================================================
+ 
+  .menu-item:nth-child(1) .sub-menu{ /*?*/
+  left: 0;
+}
+
+/*nth-child는 일정한 규칙을 만족하는 요소들을 골라서 특성을 적용시킬때 사용하는걸로 알고있습니다. 
+style.css파일에서 nth-child(1)부터 (6)까지 중에서 1부터 3까지는 left:0, 4부터 6까지는 right:0이라고 
+쓰여져있는데요 menu-item에서 어떤 결과를 위해 쓰인건가요?*/
+=========================================================================================
+
+.visual::before{
+  background: url("images/ani_flower_01.png") no-repeat 0 -15px, 
+              url("images/ani_flower_02.png") no-repeat 670px 0;
+}
+
+/*반복적으로 실행을 시키지 않게 하기위해서 no-repeat을 썼는데요 뒤에있는 번호 두개는 어떤속성에 적용되나요?*/
