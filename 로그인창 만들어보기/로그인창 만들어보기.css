@@ -1,0 +1,49 @@
+legend{
+  font-size: 25px;
+  color:yellow;
+  padding:0 0 15px 0;
+  
+}
+#userid{
+  margin:0 0 0 16px;
+ 
+}
+#userpw{
+  margin:0 0 0 10px;
+ 
+}
+.login{
+background-color:rgb(230, 143, 30);
+width: 320px;
+padding:10px;
+border-radius:15px;
+}
+
+.user-id{
+  background-color: white;
+  padding:10px 0 0 10px;
+  border-radius:10px 10px 0 0;
+}
+
+.user-pw{
+  background-color: white;
+  padding:15px 0 23px 0px;
+  border-radius:0 0 10px 10px;
+}
+
+.btn-login{
+  background-color: salmon;
+  float:right;
+  height:75px;
+  position:relative;
+  border-radius:10px;
+  
+  
+}
+
+.sign{
+  background-color: white;
+  padding-top:10px;
+  border-radius:10px 
+}
+
