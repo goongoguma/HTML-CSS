@@ -1,0 +1,22 @@
+* 책 새로운 css레이아웃
+* 항상 설계 먼저!! (설계연습필요)
+* 만들어볼때 항상 색을 넣어주기
+*HTML5에 추가된 아웃라인을 결정짓는 태그 4가지
+ -> articlem nav, aside, section
+ *자식이 float되면서 부모가 높이 값을 잃어버렸을 때, 자식 높이만큼 부모에게 높이값을 주는 방법 4가지
+  ->부모에게 float주기
+  -> 부모에게 overflow:hidden or auto
+  -> 부모가 의미없는 빈 element만들고, clear:both 값 주기
+  -> 부모에게 ::after or ::before와 같은 가상 선택자를 만들고 clear:both 값 주기. 
+ *css에서는 맨 마지막에 나오는게 선언됨
+ *height/width는 
+ *auto margin은 magrin을 늘린다.
+ *text-overflow:ellipsis
+ *width: calc(100% - 105px);
+ *color:hsla(120,40%,30%,1);
+ *cursor:pointer
+ *jquery 다운받을때 1점대가 구형브라우저 지원가능
+ *defer
+ *자바스크립트 마우스 대응방식(토글) or focus in or focus out
+ *figure 
+ *agent-style
