@@ -1,0 +1,19 @@
+* ir(image-replacement)기법 & 스프라이트 이미지를 사용하는 방법 
+* word-break:keep-all/break-all
+* 글씨가 투명하면 컴퓨터 스크린이 글자를 읽지 않는다.
+* aria-label
+* background-position
+* css 구체성 상속 우선순위 
+* length로 동작 백분률로 동작하는 기능 이해
+* 배경동작 원리 알기
+* 배경을 하나 더 만든 뒤에 기존의 박스를 덮어버리고 이미지를 만드는게 낫다. 
+* auto 자식요소의 크기만큼 부모가 늘어남
+*text-indent
+*transisiton
+*transform  =>애니메이션 관련 모델
+*animation 
+*list-style-type
+*counter-reset, counter-increment, content:counter(number)
+*polyfill 
+*flex->space-around -> block선언 -> padding값 늘리기 
+*font-variant
