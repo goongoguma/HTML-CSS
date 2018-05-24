@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>ir-sprite연습</title>
+</head>
+<style>
+  .heading{
+    background-color: yellowgreen;
+    width: 290px;
+    height: 195px;
+  }
+  
+  
+  .btn-group{
+    background-color: grey;
+    height:100px;
+    
+    }
+  .btn-prev,.btn-next{
+   display:block;
+   padding-left:20px;
+   height:20px;
+   width:0px;
+   background: url("css/images/rank.png");
+   background-repeat: no-repeat;
+ }
+ .btn-prev{
+   background-color: yellow;
+   
+ }
+ .btn-next{
+   background-color: orange;
+   background-position: 0 110%
+ }
+
+</style>
+<body>
+  <h1 class="heading">CSS ZenGarden</h1>
+  <div class="btn-group">
+    <span class="btn-prev">위로 올라가기</span>
+    <span class="btn-next">아래로 내려가기</span>
+  </div>
+</body>
+</html>
