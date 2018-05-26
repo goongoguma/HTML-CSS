@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>footer만들기</title>
+</head>
+<style>
+  .footer-bg{
+    width:940px;
+  }
+.footer{
+  
+  position:relative;
+  
+}
+.info{
+  background-color: grey;
+  padding:5px;
+  margin: 0 97px 0 0;
+  list-style-type: none;
+  display:flex;
+  justify-content:space-around;
+  border-radius: 20px;
+}
+
+.info a{
+  text-decoration:none;
+  color:white;
+  text-transform:capitalize;
+}
+.info2{
+   list-style-type:none;
+   margin-top:0;
+   }
+.info2 li{
+  margin: 0;
+  padding: 0 10px 0 0;
+  display:inline-block;
+  text-align:center;
+}
+.logo{
+ 
+  position:absolute;
+  top:0;
+  right:0;
+}
+</style>
+<body>
+   <h2 class="company-info">  </h2>      
+        <div class="footer-bg">
+            <footer class="footer">
+              <ul class="info">
+                  <li><a href="#">회사소개</a></li>
+                  <li><a href="#">개인정보 보호정책</a></li>
+                  <li><a href="#">이메일주소 무단수집 거부</a></li>
+                  <li><a href="#">contact us</a></li>
+                  <li><a href="#">site map</a></li>
+               </ul>
+               <ul class="info2">
+                  <li>서울시 마포구 상수동 123-12 한주빌딩 5층</li>
+                  <li>전화"02-234-5678</li>
+                  <li> E-MAIL:webmaster@webcafe2010.com</li>
+               </ul>
+               <div class="logo">
+                 <img src="images/html5_logo.png" alt="html5 문법오류없음">
+                 <img src="images/css3_logo.png" alt="css3 문법오류없음">
+               </div>
+            </footer>
+          </div>
+</body>
+</html>
