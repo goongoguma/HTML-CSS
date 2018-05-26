@@ -1,0 +1,60 @@
+* top / right / bottom / left
+
+* width / height / max,min-
+
+* margin / margin-top / margin-right / margin-bottom / margin-left
+
+* padding / padding-top / padding-right / padding-bottom / padding-left
+
+* float / float:left / float:right
+
+* position / position:static(default) / position: relative / position:absolute / position:fixed /position:sticky
+
+* list-style-type : 목록에서 목록 항목 표시자의 모양을 지정합니다. (dis,circle,decimal,lower-roman,none...)
+
+* overflow : visible / hidden / scroll / auto / initial / inherit
+
+* clip : rect( top right bottom left) : 원하는 속성의 부분 보여주기 (position:absol과 fixed가 적용됐을 때에만 사용가능)
+
+* font-family : 글꼴
+
+* background-position
+
+* text-align
+
+* display: inline / block / inline-block
+
+* text-transform
+
+* font-weight / font-shadow
+
+* hover / ::before / ::after (가상요소선택자)
+
+* white-space : normal / nowrap / pre / pre-wrap / pre-line (텍스트 길이조절)
+
+* cursor : pointer
+
+* nth-child 
+
+* transform:translate(x축,y축) : x축에서 y축 이동 => animation
+
+* animation: 초s infinite alternate(무한반복) => animation
+
+* z-index
+
+* justify-cotent / align-items (flex속성)
+
+* text-overflow : ellipsis
+
+* text-indent (텍스트 들여쓰기)
+
+* transition-property => animation
+
+* transition-duration => animation
+
+* counter-reset (카운터 초기화)
+
+* counter-increment (카운터 증가)
+
+counter-reset: number;
+
